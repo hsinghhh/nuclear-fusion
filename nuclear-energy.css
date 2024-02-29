@@ -1,0 +1,130 @@
+body {
+    background-color: #1d313c;
+  }
+
+@font-face {
+    font-family: DMSerifDisplay;
+    src: url(DMSerifDisplay.ttf);
+}
+@font-face {
+    font-family: DMSans;
+    src: url(DMSans.ttf);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1em;
+    font-weight: normal;
+    font-family: DMSans;
+    font-weight: normal;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+h1.nuclear-energy {
+    background: linear-gradient(45deg,#c85553, #922c2a);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-size: 4.5em;
+    font-weight: bold ;
+    font-family: DMSerifDisplay;
+    padding-top: .1em;
+    padding-bottom: .1em;
+    display: block;
+    justify-content: center
+}
+
+h1.nuclear-energy {
+    overflow: hidden;
+    border-right: .15em solid #c43b39;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0em;
+    width: 40%;
+    animation:
+        typing 3.5s steps(35, end), blink-caret 0.5s step-end infinite;
+}
+      
+@keyframes typing {
+    from { width: 0% }
+    to { width: 40% }
+}
+      
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    30% { border-color: #922c2a; }
+}
+
+
+p.other {
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: normal;
+    font-family: DMSans;
+    padding-top: 0em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-weight: normal;
+    animation:
+        fadein 8s;
+}
+
+.parent {
+    display: flex;
+}
+
+p.gen-energy {
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-family: DMSans;
+    padding-top: 0.5em;
+    padding-bottom: 0em;
+    padding-left: 3em;
+    padding-right: 3em;
+    font-weight: bold;
+    animation:
+        fadein 8s;
+    
+}
+
+p.fade-in{
+    color: #ffffff;
+    text-align: center;
+    font-size: 1em;
+    font-weight: normal;
+    font-family: DMSans;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 3em;
+    padding-right: 3em;
+    font-weight: normal;
+    animation:
+        fadein 8s;
+  }
+
+@keyframes fadein {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
