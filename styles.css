@@ -107,7 +107,7 @@ p.gen-fusion {
       
 @keyframes blink-caret {
     from, to { border-color: transparent }
-    30% { border-color: #922c2a; }
+    33% { border-color: #922c2a; }
 }
 
 .video {
